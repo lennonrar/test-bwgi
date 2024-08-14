@@ -1,0 +1,6 @@
+こんにちは、世界!
+Hello, world!
+你好，世界！
+This is a file
+This is line 2
+And this is line 3

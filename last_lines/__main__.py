@@ -2,7 +2,7 @@ from main import last_lines
 
 
 def run() -> None:
-    for line in last_lines("data/my_file.txt", buffer_size=1024):
+    for line in last_lines("last_lines/data/my_file.txt", buffer_size=1024):
         print(line, end="")
 
 

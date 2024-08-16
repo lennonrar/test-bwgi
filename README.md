@@ -19,14 +19,20 @@ The project contains the following main files:
 
 
 ### Example Usage
-Reconcile Accounts
+#### Reconcile Accounts
 To reconcile accounts, run the following command:
 
-```python -m reconcile_accounts```
+```python reconcile_accounts```
+
+#### Last Lines
+To last lines, run the following command:
+
+```python last_lines```
 
 #### Computed Property
 To demonstrate the usage of the computed_property decorator, run the following command:
 
-```python -m computed_property```
+```python computed_property```
+
 
 This will demonstrate the usage of the Circle and Vector classes with the computed_property decorator.

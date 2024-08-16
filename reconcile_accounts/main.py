@@ -21,7 +21,9 @@ def reconcile_accounts(
     for j in range(len(csv_list_a)):
         if csv_list_a[j][-1] != "FOUND":
             csv_list_a[j].append("MISSING")
-        if csv_list_b[j][-1] != "FOUND":
-            csv_list_b[j].append("MISSING")
+
+    for k in range(len(csv_list_b)):
+        if csv_list_b[k][-1] != "FOUND":
+            csv_list_b[k].append("MISSING")
 
     return [csv_list_a, csv_list_b]

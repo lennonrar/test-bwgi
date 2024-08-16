@@ -1,4 +1,6 @@
 from main import computed_property
+
+
 class Circle:
     """
     A class to represent a circle.
@@ -6,11 +8,12 @@ class Circle:
     Attributes:
         radius (float): The radius of the circle.
     """
+
     def __init__(self, radius=1):
         self.radius = radius
 
     @property
-    @computed_property('radius')
+    @computed_property("radius")
     def diameter(self):
         """
         Computes the diameter of the circle.

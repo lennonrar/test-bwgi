@@ -1,8 +1,15 @@
 import datetime as dt
 
+
 def reconcile_accounts(
     csv_list_a: list[list[str]], csv_list_b: list[list[str]]
 ) -> [list[list[str]]]:
+    """
+    Compare two CSV files and mark the rows that are missing or found in the other file.
+    :param csv_list_a: list of lists representing the first CSV file
+    :param csv_list_b: list of lists representing the second CSV file
+    :return: list of lists with the rows marked as MISSING or FOUND
+    """
     for row in csv_list_a:
         i = 0
         while i < 3:

@@ -1,5 +1,5 @@
 ## Code Challenge from bwgi
-To run the methods as modules:
+To run:
 
 ```python <module_name>```
 
@@ -30,6 +30,5 @@ To last lines, run the following command:
 To demonstrate the usage of the computed_property decorator, run the following command:
 
 ```python computed_property```
-
 
 This will demonstrate the usage of the Circle and Vector classes with the computed_property decorator.
